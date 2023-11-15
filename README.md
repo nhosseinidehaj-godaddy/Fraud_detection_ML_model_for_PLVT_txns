@@ -10,16 +10,16 @@ First, we need to build a driver table, including business_uuid, txn_uuid, tende
 To build a driver table we first run query_1 located in src/queries (in Alation) and save the results as gpv_amnt_2.csv, and then run this cell 
 
 Now, for each txn in our driver table, we need to build gpv features, which are 
-Lifetime GPV ($), Lifetime num. gpv txns (#), 
-Last 14 day GPV ($), Last 14 day num. gpv txns (#),
-Last 7 day GPV ($), Last 7 day num. gpv txns (#),
-Last 3 day GPV ($), Last 3 day num. gpv txns (#),
-Last 1 day GPV ($), Last 1 day num. gpv txns (#)
+Lifetime GPV (amount), Lifetime num. gpv txns (count), 
+Last 14 day GPV (amount), Last 14 day num. gpv txns (count),
+Last 7 day GPV (amount), Last 7 day num. gpv txns (count),
+Last 3 day GPV (amount), Last 3 day num. gpv txns (count),
+Last 1 day GPV (amount), Last 1 day num. gpv txns (count)
 
 The gpv features except the lifetime gpv features will be built using this cell
 
 To build lifetime gpv features we first run query_2 located in src/queries (in Alation) and save the results as gpv_lifetime_amnt_num.csv, and then run this cell
 
 Next, we need to build payout features, which are
-successful lifetime payouts (#) and successful lifetime payouts ($)
+successful lifetime payouts (count) and successful lifetime payouts (amount)
 
