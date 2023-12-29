@@ -19,12 +19,12 @@ Last 1 day GPV (amount), Last 1 day num. gpv txns (count),
 Lifetime GPV (amount), Lifetime num. gpv txns (count)
 
 The gpv features, except for the lifetime gpv features, will be built using this Jupytor notebook cell [gpv features cell](path/to/notebook.ipynb#gpv features)
-To build lifetime gpv features we first run query_2 located in [query_2](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/queries.sql) in Alation and save the results as gpv_lifetime_amnt_num.csv, and then run this Jupytor notebook cell [lifetime_gpv features cell](path/to/https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/PLVT_fraud_detection_model_notebook.ipynb#lifetime_gpv features)
+To build lifetime gpv features we first run query_2 located in [query_2](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/queries.sql) in Alation and save the results as gpv_lifetime_amnt_num.csv, and then run this Jupytor notebook cell [lifetime_gpv features cell](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/PLVT_fraud_detection_model_notebook.ipynb#lifetime_gpv features)
 
 Next, for each txn in our driver table, we build payout features, which are:
 successful lifetime payouts (count)
 successful lifetime payouts (amount)
-To build payout features we first run query_3 located in [query_3](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/queries.sql) in Alation and save the results as payout.csv, and then run this Jupytor notebook cell [payout features cell](path/to/https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/PLVT_fraud_detection_model_notebook.ipynb#payout features)
+To build payout features we first run query_3 located in [query_3](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/queries.sql) in Alation and save the results as payout.csv, and then run this Jupytor notebook cell [payout features cell](https://github.com/nhosseinidehaj-godaddy/Fraud_detection_ML_model_for_PLVT_txns/blob/main/src/PLVT_fraud_detection_model_notebook.ipynb#payout features)
 
 
 Next, for each txn in our driver table, we build chargeback features, which are:
